@@ -9,9 +9,9 @@ function init() {
   map = new google.maps.Map(document.getElementById('map-holder'), {
     center: {lat: 39.625555, lng: 19.925555},
     zoom: 6,
-    mapTypeControl: false,
-    streetViewControl: false,
-    fullscreenControl: false,
+    //mapTypeControl: false,
+  //  streetViewControl: false,
+//    fullscreenControl: false,
     mapTypeId: 'satellite'
   });
 	
