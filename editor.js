@@ -5,10 +5,11 @@ var geoJsonOutput;
 var downloadLink;
 
 function init() {
+	
   // Initialise the map.
   map = new google.maps.Map(document.getElementById('map-holder'), {
-    center: {lat: 39.625555, lng: 19.925555},
-    zoom: 0,
+    center: {lat: 39.620000, lng: 19.920000},
+    zoom: 15,
     mapTypeControl: false,
     streetViewControl: false,
     fullscreenControl: false,
